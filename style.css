@@ -8,17 +8,18 @@ body
     font-family: 'Courier New', 'Times New Roman', Verdana ;
     background-color: #C97C5D;
 }
-.main-title
+.main-title, .heading
 {
     text-align: center;
     font-size: 40px;
     color: #1C3041;
+    
 }
 .title-img
 {
     margin: 0 auto;
 }
-.main-links a
+.main-links a, .recipe
 {
     color: #1C3041;
     
