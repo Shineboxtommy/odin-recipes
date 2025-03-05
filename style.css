@@ -2,6 +2,12 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after
+{
+    box-sizing: inherit;
 }
 body
 {
@@ -13,13 +19,29 @@ body
     text-align: center;
     font-size: 40px;
     color: #1C3041;
+    margin: 25px;
+    
     
 }
 .title-img
 {
+    display: block;
     margin: 0 auto;
 }
-.main-links a, .recipe
+.main-links
+{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+.main-links li
+{
+    list-style: none;
+    padding: 15px;
+}
+.main-links li, .recipe
 {
     color: #1C3041;
     
@@ -28,4 +50,8 @@ body
 {
     color: #18F2B2;
     
+}
+.main-links a:hover
+{
+    color: #007451;
 }
