@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Courier New', 'Times New Roman', Verdana ;
+    background-color: #C97C5D;
+}
+.main-title
+{
+    text-align: center;
+    font-size: 40px;
+    color: #1C3041;
+}
+.title-img
+{
+    margin: 0 auto;
+}
+.main-links a
+{
+    color: #1C3041;
+    
+}
+.main-links a:visited
+{
+    color: #18F2B2;
+    
+}
